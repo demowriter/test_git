@@ -35,7 +35,11 @@ public class openChrome {
 			e.printStackTrace();
 		}
        System.out.print("执行结束！");
+       System.out.print("执行结束！");
+  	 System.out.print("执行结束！");
+  	 System.out.print("执行结束！");
+  	 System.out.print("执行结束！");
         driver.quit();//退出浏览器
     }
-
+	 
 }
