@@ -2,10 +2,14 @@ package st_1;
 //
 import java.util.concurrent.TimeUnit;
 import java.util.*;
+
+import org.apache.xerces.util.SynchronizedSymbolTable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class openChrome {
+	//main方法参数必须为字符串数组(String [ ])，变量名可以随意，
+	//通常使用args即是arguments（”参数“的复数形式）的缩写。
 	public static void main(String[] args) {
 //        System.setProperty("webdriver.chrome.driver","E:\\webDriver\\chromedriverV2.28.exe");//chromedriver服务地址
         WebDriver driver =new ChromeDriver(); //新建一个WebDriver 的对象，但是new 的是FirefoxDriver的驱动
@@ -35,7 +39,9 @@ public class openChrome {
 			e.printStackTrace();
 		}
        System.out.print("执行结束！");
+       
         driver.quit();//退出浏览器
     }
+	
 	 
 }
